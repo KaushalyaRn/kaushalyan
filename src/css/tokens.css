@@ -1,0 +1,59 @@
+:root {
+  --paper: #eef1e6;
+  --paper-deep: #e2e8d6;
+  --ink: #241c14;
+  --ink-soft: #5d5348;
+  --amber: #b5791f;
+  --honey: #e0b25a;
+  --moss: #3f5a44;
+  --leaf: #4d6a4c;
+  --leaf-deep: #2f4a34;
+  --leaf-bright: #7a9a6e;
+  --wing: #c9d3bb;
+  --rule: #d3d8c6;
+  --shadow: rgba(36, 28, 20, 0.08);
+  --header: rgba(238, 241, 230, 0.88);
+  --focus: #3f5a44;
+  --max: 72rem;
+  --text: 40rem;
+  --display: "Fraunces", "Iowan Old Style", Palatino, serif;
+  --sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+:root[data-theme="dusk"] {
+  --paper: #1a1c18;
+  --paper-deep: #141612;
+  --ink: #f3eee4;
+  --ink-soft: #cbbba8;
+  --amber: #e0b25a;
+  --honey: #f0d089;
+  --moss: #9fb59a;
+  --leaf: #7fa37a;
+  --leaf-deep: #4d6a4c;
+  --leaf-bright: #b5d0a8;
+  --wing: #4d5646;
+  --rule: #3a342c;
+  --shadow: rgba(0, 0, 0, 0.35);
+  --header: rgba(26, 28, 24, 0.9);
+  --focus: #e0b25a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="dawn"]) {
+    --paper: #1a1c18;
+    --paper-deep: #141612;
+    --ink: #f3eee4;
+    --ink-soft: #cbbba8;
+    --amber: #e0b25a;
+    --honey: #f0d089;
+    --moss: #9fb59a;
+    --leaf: #7fa37a;
+    --leaf-deep: #4d6a4c;
+    --leaf-bright: #b5d0a8;
+    --wing: #4d5646;
+    --rule: #3a342c;
+    --shadow: rgba(0, 0, 0, 0.35);
+    --header: rgba(26, 28, 24, 0.9);
+    --focus: #e0b25a;
+  }
+}

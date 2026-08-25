@@ -1,0 +1,13 @@
+<article class="shell page-article">
+  <header class="page-head">
+    <p class="kicker">{{kicker}}</p>
+    <h1>{{title}}</h1>
+    <p class="lede">{{summary}}</p>
+  </header>
+  <div class="prose">
+    {{{body}}}
+  </div>
+  {{#if download_cv}}
+  <p class="cv-download"><a class="button" href="/files/cv.pdf">Download CV (PDF)</a></p>
+  {{/if}}
+</article>

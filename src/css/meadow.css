@@ -1,0 +1,191 @@
+.meadow-corner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: min(26rem, 50vw);
+  pointer-events: none;
+  line-height: 0;
+}
+
+.meadow-corner svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.meadow-corner .mound {
+  fill: color-mix(in srgb, var(--leaf-deep) 55%, var(--paper-deep));
+}
+
+.meadow-corner .bush ellipse {
+  fill: var(--leaf);
+}
+
+.meadow-corner .bush-lit {
+  fill: var(--leaf-bright);
+}
+
+.meadow-corner .blade {
+  fill: none;
+  stroke: var(--leaf);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+
+.meadow-corner .b2,
+.meadow-corner .b6,
+.meadow-corner .b10 {
+  stroke: var(--leaf-bright);
+  stroke-width: 1.7;
+}
+
+.meadow-corner .b3,
+.meadow-corner .b7,
+.meadow-corner .b9 {
+  stroke: var(--leaf-deep);
+  stroke-width: 2.6;
+}
+
+.meadow-corner .bush.back ellipse {
+  fill: var(--leaf-deep);
+  opacity: 0.85;
+}
+
+.meadow-corner .daisy ellipse {
+  fill: #f7f3ea;
+  stroke: color-mix(in srgb, var(--leaf-deep) 25%, #f7f3ea);
+  stroke-width: 0.4;
+}
+
+.meadow-corner .daisy .disk {
+  fill: var(--honey);
+}
+
+.meadow-corner .buttercup .disk {
+  fill: var(--leaf-deep);
+}
+
+.meadow-corner .buttercup circle {
+  fill: var(--honey);
+}
+
+.meadow-corner .umbel circle {
+  fill: #f0dcc8;
+}
+
+.meadow-corner .grasses .blade,
+.meadow-corner .plant {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: blade-sway 6s ease-in-out infinite;
+}
+
+.meadow-corner .grasses .blade:nth-child(odd) {
+  animation-name: blade-sway-alt;
+}
+
+.meadow-corner .b1 { animation-duration: 4.7s; animation-delay: -0.2s; }
+.meadow-corner .b2 { animation-duration: 6.4s; animation-delay: -1.1s; }
+.meadow-corner .b3 { animation-duration: 5.2s; animation-delay: -2.4s; }
+.meadow-corner .b4 { animation-duration: 7.1s; animation-delay: -0.8s; }
+.meadow-corner .b5 { animation-duration: 4.9s; animation-delay: -3.3s; }
+.meadow-corner .b6 { animation-duration: 6.8s; animation-delay: -1.7s; }
+.meadow-corner .b7 { animation-duration: 5.6s; animation-delay: -2.9s; }
+.meadow-corner .b8 { animation-duration: 7.4s; animation-delay: -0.4s; }
+.meadow-corner .b9 { animation-duration: 5.1s; animation-delay: -3.8s; }
+.meadow-corner .b10 { animation-duration: 6.2s; animation-delay: -2.1s; }
+.meadow-corner .b11 { animation-duration: 7.8s; animation-delay: -1.4s; }
+.meadow-corner .b12 { animation-duration: 5.4s; animation-delay: -4.2s; }
+
+.meadow-corner .p1 { animation-duration: 6.4s; animation-delay: -0.4s; }
+.meadow-corner .p2 { animation-duration: 7.2s; animation-delay: -1.6s; }
+.meadow-corner .p3 { animation-duration: 5.8s; animation-delay: -2.2s; }
+.meadow-corner .p4 { animation-duration: 8s; animation-delay: -3.1s; }
+
+.meadow-corner .tiny-fly {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.meadow-corner .fly-a { animation: flirt-a 7.5s ease-in-out infinite; }
+.meadow-corner .fly-b { animation: flirt-b 9.2s ease-in-out infinite; }
+.meadow-corner .fly-c { animation: flirt-c 8.1s ease-in-out infinite -2s; }
+
+.meadow-corner .tiny-wing {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: tiny-wing 0.14s linear infinite;
+}
+
+@keyframes blade-sway {
+  0%, 100% { transform: rotate(-3.2deg); }
+  50% { transform: rotate(4.1deg); }
+}
+
+@keyframes blade-sway-alt {
+  0%, 100% { transform: rotate(2.8deg); }
+  50% { transform: rotate(-3.8deg); }
+}
+
+@keyframes flirt-a {
+  0%, 100% { transform: translate(0, 0) rotate(-12deg); }
+  22% { transform: translate(16px, -14px) rotate(8deg); }
+  48% { transform: translate(-10px, -4px) rotate(-6deg); }
+  74% { transform: translate(8px, 10px) rotate(14deg); }
+}
+
+@keyframes flirt-b {
+  0%, 100% { transform: translate(0, 0) rotate(10deg); }
+  30% { transform: translate(-14px, -10px) rotate(-8deg); }
+  58% { transform: translate(12px, 6px) rotate(16deg); }
+  82% { transform: translate(-6px, 12px) rotate(2deg); }
+}
+
+@keyframes flirt-c {
+  0%, 100% { transform: translate(0, 0) rotate(-6deg); }
+  28% { transform: translate(-12px, 8px) rotate(12deg); }
+  55% { transform: translate(14px, -12px) rotate(-10deg); }
+  80% { transform: translate(4px, 6px) rotate(8deg); }
+}
+
+@keyframes tiny-wing {
+  from { opacity: 0.35; }
+  to { opacity: 0.9; }
+}
+
+@keyframes meadow-sway {
+  0%, 100% { transform: rotate(-1.4deg); }
+  50% { transform: rotate(2.2deg); }
+}
+
+.site-header,
+.site-footer,
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.site-header {
+  z-index: 10;
+}
+
+@media (max-width: 800px) {
+  .meadow-corner {
+    width: min(16rem, 64vw);
+    opacity: 0.82;
+  }
+
+  main {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .meadow-corner .grasses .blade,
+  .meadow-corner .plant,
+  .meadow-corner .tiny-fly,
+  .meadow-corner .tiny-wing {
+    animation: none;
+  }
+}

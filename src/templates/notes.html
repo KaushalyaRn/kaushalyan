@@ -1,0 +1,16 @@
+<article class="shell page-article">
+  <header class="page-head">
+    <p class="kicker">Field notes</p>
+    <h1>{{title}}</h1>
+    <p class="lede">{{summary}}</p>
+  </header>
+  <div class="notes-list">
+    {{#each notes}}
+    <a class="note-card" href="{{permalink}}">
+      <time datetime="{{date_iso}}">{{date_fmt}}</time>
+      <h2>{{title}}</h2>
+      <p>{{summary}}</p>
+    </a>
+    {{/each}}
+  </div>
+</article>

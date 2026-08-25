@@ -1,0 +1,9 @@
+dist/
+.env
+.env.*
+.DS_Store
+node_modules/
+
+# Personal source documents kept locally, not published as-is
+*.pdf
+!content/files/*.pdf

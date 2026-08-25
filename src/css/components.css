@@ -1,0 +1,122 @@
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.4rem;
+  color: var(--amber);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.kicker::before {
+  content: "";
+  width: 2.1rem;
+  height: 0.55rem;
+  background:
+    linear-gradient(90deg,
+      var(--amber) 0 30%,
+      var(--ink) 30% 52%,
+      var(--honey) 52% 78%,
+      var(--ink) 78% 100%);
+  border-radius: 999px;
+}
+
+.affiliation {
+  color: var(--ink-soft);
+}
+
+.hero-actions,
+.cv-download {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.4rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.button:hover {
+  background: var(--amber);
+  color: var(--ink);
+}
+
+.button.ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+}
+
+.prose h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.prose ul {
+  padding-left: 1.1rem;
+}
+
+.prose li + li {
+  margin-top: 0.35rem;
+}
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+.prose blockquote {
+  margin: 1.5rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 3px solid var(--amber);
+  color: var(--ink-soft);
+  font-family: var(--display);
+  font-size: 1.15rem;
+}
+
+.notes-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.note-card {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  background: color-mix(in srgb, var(--paper) 70%, white);
+  border: 1px solid var(--rule);
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px var(--shadow);
+  text-decoration: none;
+  color: inherit;
+}
+
+.note-card h2 {
+  margin: 0.2rem 0 0.4rem;
+  font-size: 1.35rem;
+}
+
+.note-card time,
+.page-head time {
+  color: var(--amber);
+  font-size: 0.86rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.note-card p {
+  margin: 0;
+  color: var(--ink-soft);
+}

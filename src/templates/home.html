@@ -1,0 +1,25 @@
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="kicker">{{site_role}}</p>
+      <h1>{{site_name}}</h1>
+      <p class="lede">{{site_tagline}}</p>
+      <p class="affiliation">{{site_affiliation}}</p>
+      <div class="hero-actions">
+        <a class="button" href="/research.html">Research</a>
+        <a class="button ghost" href="/cv.html">CV</a>
+        {{#if has_cv}}
+        <a class="button ghost" href="/files/cv.pdf">Download CV</a>
+        {{/if}}
+      </div>
+    </div>
+    <figure class="hoverfly-scene" aria-hidden="true">
+      {{{hoverfly}}}
+      <figcaption>A hoverfly holding still in the air.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="shell prose">
+  {{{body}}}
+</section>

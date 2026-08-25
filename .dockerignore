@@ -1,0 +1,8 @@
+.git
+dist
+*.md
+!content/**/*.md
+*.pdf
+!content/files/*.pdf
+.env
+.env.*

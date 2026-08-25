@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{page_title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="author" content="{{site_name}}" />
+  <link rel="canonical" href="{{site_url}}{{permalink}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{page_title}}" />
+  <meta property="og:description" content="{{description}}" />
+  <meta property="og:url" content="{{site_url}}{{permalink}}" />
+  <meta name="theme-color" content="#eef1e6" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.bunny.net" />
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=fraunces:300,500,600,700|figtree:400,500,600" />
+  <link rel="stylesheet" href="/css/tokens.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/base.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/layout.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/components.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/hoverfly.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/meadow.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/pages.css?v={{version}}" />
+  <link rel="stylesheet" href="/css/print.css?v={{version}}" />
+</head>
+<body class="page-{{page_class}}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="mark" href="/" aria-label="{{site_name}} home">
+        <img src="/assets/favicon.svg" alt="" width="28" height="28" />
+        <span>{{site_name}}</span>
+      </a>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        {{#each nav}}
+        <a href="{{url}}" class="{{active}}">{{label}}</a>
+        {{/each}}
+      </nav>
+      <div class="header-tools">
+        <button class="theme-toggle" type="button" aria-label="Switch colour theme">Dusk</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    {{{body}}}
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>{{site_name}} · {{site_location}}</p>
+      <p class="muted">v{{version}} · built {{built_at}}</p>
+    </div>
+  </footer>
+  <div class="meadow-corner" aria-hidden="true">
+    {{{meadow}}}
+  </div>
+  <script type="module" src="/js/main.js?v={{version}}"></script>
+</body>
+</html>

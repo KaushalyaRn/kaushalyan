@@ -1,0 +1,17 @@
+.page-home .prose {
+  padding-bottom: 3rem;
+}
+
+.page-cv .prose h2 {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.4rem;
+}
+
+.page-publications .prose h3 {
+  font-family: var(--display);
+  font-size: 1.25rem;
+}
+
+.page-contact .prose a {
+  font-weight: 600;
+}
