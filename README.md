@@ -17,7 +17,7 @@ One-time setup (on a machine logged into her Fly account):
 
 ```bash
 fly auth login
-fly apps create kaushalyan --org personal
+fly apps create kaushalyan
 fly tokens create deploy -x
 ```
 
