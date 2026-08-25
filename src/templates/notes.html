@@ -1,16 +1,22 @@
 <article class="shell page-article">
-  <header class="page-head">
-    <p class="kicker">Field notes</p>
-    <h1>{{title}}</h1>
-    <p class="lede">{{summary}}</p>
-  </header>
-  <div class="notes-list">
-    {{#each notes}}
-    <a class="note-card" href="{{permalink}}">
-      <time datetime="{{date_iso}}">{{date_fmt}}</time>
-      <h2>{{title}}</h2>
-      <p>{{summary}}</p>
-    </a>
-    {{/each}}
+  <div class="reading">
+    <header class="page-head">
+      {{#if kicker}}
+      <p class="kicker">{{kicker}}</p>
+      {{/if}}
+      <h1>{{title}}</h1>
+      {{#if summary}}
+      <p class="lede">{{summary}}</p>
+      {{/if}}
+    </header>
+    <div class="notes-list">
+      {{#each notes}}
+      <a class="note-card" href="{{permalink}}">
+        <time datetime="{{date_iso}}">{{date_fmt}}</time>
+        <h2>{{title}}</h2>
+        <p>{{summary}}</p>
+      </a>
+      {{/each}}
+    </div>
   </div>
 </article>

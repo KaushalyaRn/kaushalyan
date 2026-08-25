@@ -2,8 +2,8 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  z-index: 2;
-  width: min(26rem, 50vw);
+  z-index: 0;
+  width: min(22rem, 42vw);
   pointer-events: none;
   line-height: 0;
 }
@@ -170,14 +170,19 @@ main {
   z-index: 10;
 }
 
+.site-footer {
+  z-index: 3;
+}
+
 @media (max-width: 800px) {
   .meadow-corner {
-    width: min(16rem, 64vw);
-    opacity: 0.82;
+    width: min(14rem, 52vw);
+    opacity: 0.7;
   }
 
-  main {
-    padding-bottom: 3rem;
+  .home-follow,
+  .page-article {
+    padding-bottom: 7rem;
   }
 }
 

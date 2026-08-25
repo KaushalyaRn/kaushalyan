@@ -4,9 +4,10 @@
   gap: 0.55rem;
   margin: 0 0 0.4rem;
   color: var(--amber);
-  font-size: 0.82rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
@@ -25,10 +26,10 @@
 
 .affiliation {
   color: var(--ink-soft);
+  font-family: var(--sans);
 }
 
-.hero-actions,
-.cv-download {
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
@@ -44,7 +45,9 @@
   background: var(--ink);
   color: var(--paper);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 500;
 }
 
 .button:hover {
@@ -58,10 +61,15 @@
   border: 1px solid var(--rule);
 }
 
-.prose h2 {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
+.button.ghost:hover {
+  background: color-mix(in srgb, var(--leaf) 16%, transparent);
+  color: var(--ink);
+  border-color: var(--leaf);
+}
+
+.prose h2,
+.prose h3 {
+  display: block;
 }
 
 .prose ul {
@@ -95,12 +103,17 @@
 .note-card {
   display: block;
   padding: 1.1rem 1.2rem;
-  background: color-mix(in srgb, var(--paper) 70%, white);
+  background: var(--paper-deep);
   border: 1px solid var(--rule);
   border-radius: 1rem;
   box-shadow: 0 12px 30px var(--shadow);
   text-decoration: none;
   color: inherit;
+}
+
+.note-card:hover {
+  color: inherit;
+  border-color: var(--leaf);
 }
 
 .note-card h2 {
@@ -111,6 +124,7 @@
 .note-card time,
 .page-head time {
   color: var(--amber);
+  font-family: var(--sans);
   font-size: 0.86rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;

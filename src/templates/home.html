@@ -7,10 +7,6 @@
       <p class="affiliation">{{site_affiliation}}</p>
       <div class="hero-actions">
         <a class="button" href="/research.html">Research</a>
-        <a class="button ghost" href="/cv.html">CV</a>
-        {{#if has_cv}}
-        <a class="button ghost" href="/files/cv.pdf">Download CV</a>
-        {{/if}}
       </div>
     </div>
     <figure class="hoverfly-scene" aria-hidden="true">
@@ -20,6 +16,8 @@
   </div>
 </section>
 
-<section class="shell prose">
-  {{{body}}}
+<section class="shell home-follow">
+  <div class="reading prose">
+    {{{body}}}
+  </div>
 </section>

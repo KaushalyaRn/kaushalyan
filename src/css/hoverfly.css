@@ -30,14 +30,6 @@
   clip: rect(0 0 0 0);
 }
 
-.hoverfly-scene figcaption {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-}
-
 .wing {
   transform-origin: 168px 118px;
   animation: wing 0.16s linear infinite;

@@ -7,11 +7,14 @@ summary: The shortest route is email. The rest is for following the work and the
 permalink: /contact.html
 ---
 
-**Email:** [kaushalya.nagahawatte@helsinki.fi](mailto:kaushalya.nagahawatte@helsinki.fi)
+**Work:** [kaushalya.nagahawatte@helsinki.fi](mailto:kaushalya.nagahawatte@helsinki.fi)
+
+**Personal:** [kaushalyanagahawatta@gmail.com](mailto:kaushalyanagahawatta@gmail.com)
 
 **Affiliation:** Insect Symbiosis Ecology and Evolution group, Faculty of Biological and Environmental Sciences, University of Helsinki.
 
 - [ORCID](https://orcid.org/0009-0001-6763-7159)
 - [LinkedIn](https://www.linkedin.com/in/kaushalya-nagahawatte)
 - [Instagram — photographs](https://www.instagram.com/a_moment_fromtheworld/)
+
 I am based in Helsinki, Finland.

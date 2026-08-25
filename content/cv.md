@@ -3,15 +3,15 @@ title: CV
 nav: CV
 order: 4
 kicker: Curriculum vitae
-summary: A readable version of the academic CV. The PDF is the version to download and send.
+summary: A readable version of the academic CV.
 permalink: /cv.html
-download_cv: true
 ---
 
 ## Personal details
 
 - **Name:** Kaushalya Nagahawatte
 - **ORCID:** [0009-0001-6763-7159](https://orcid.org/0009-0001-6763-7159)
+
 ## Degrees
 - **2024.** MSc in Biological and Environmental Sciences, University of Jyväskylä, Finland. Thesis: *Relationship of parasitic Margaritifera margaritifera larvae with the host fish Atlantic salmon.*  [URN](https://urn.fi/URN:NBN:fi:jyu-202406174725)
 - **2014.** BSc Special in Zoology, University of Kelaniya, Sri Lanka. Thesis on antibacterial activity of rampe, *Pandanus amaryllifolius*, against *Aeromonas hydrophila* and water quality for guppy (*Poecilia reticulata*). 

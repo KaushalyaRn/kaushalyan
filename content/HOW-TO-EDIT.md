@@ -62,9 +62,13 @@ Write the note here.
 
 Then **Commit changes**.
 
-## Replace the downloadable CV
+## CV
 
-Replace `content/files/cv.pdf` with a new PDF of the same name (GitHub: open the file → **Upload** a replacement, or delete and upload the new one).
+There is no downloadable PDF. Keep the readable CV in `content/cv.md`.
+
+## Add earlier research
+
+Open `content/research.md`. Under **Earlier research**, add a paragraph under an existing heading, or a new `###` heading for another project.
 
 ## Add a photograph later
 

@@ -105,9 +105,6 @@ function build() {
       .sort((a, b) => String(b.date).localeCompare(String(a.date)))
     : [];
 
-  const cvPath = path.join(contentDir, "files", "cv.pdf");
-  const hasCv = fs.existsSync(cvPath);
-
   const nav = pages
     .filter((page) => page.nav)
     .map((page) => ({
@@ -129,10 +126,6 @@ function build() {
   copyDir(path.join(srcDir, "js"), path.join(distDir, "js"));
   copyDir(path.join(srcDir, "assets"), path.join(distDir, "assets"));
   copyDir(path.join(contentDir, "assets"), path.join(distDir, "assets"));
-  if (hasCv) {
-    fs.mkdirSync(path.join(distDir, "files"), { recursive: true });
-    fs.copyFileSync(cvPath, path.join(distDir, "files", "cv.pdf"));
-  }
 
   const baseCtx = {
     site_name: site.name,
@@ -147,7 +140,6 @@ function build() {
     built_at: builtAt,
     hoverfly,
     meadow,
-    has_cv: hasCv,
     social,
     notes,
     notes_count: notes.length,
@@ -163,7 +155,6 @@ function build() {
       page_title: title,
       page_class: page.slug,
       body: page.html,
-      download_cv: Boolean(page.download_cv) && hasCv,
       nav: nav.map((item) => ({ ...item, active: navClass(item, page.permalink) })),
     };
   }

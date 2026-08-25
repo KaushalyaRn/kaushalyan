@@ -14,13 +14,20 @@ export function initTheme() {
   const saved = localStorage.getItem(KEY);
   if (saved) root.setAttribute("data-theme", saved);
   syncLabel(button, currentTheme());
+  syncThemeColor(currentTheme());
 
   button?.addEventListener("click", () => {
     const next = currentTheme() === "dusk" ? "dawn" : "dusk";
     root.setAttribute("data-theme", next);
     localStorage.setItem(KEY, next);
     syncLabel(button, next);
+    syncThemeColor(next);
   });
+}
+
+function syncThemeColor(theme) {
+  const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", theme === "dusk" ? "#1c1814" : "#f3eee4");
 }
 
 function syncLabel(button, theme) {

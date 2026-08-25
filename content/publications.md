@@ -23,7 +23,7 @@ OSF · [doi:10.17605/OSF.IO/H72ZV](https://doi.org/10.17605/OSF.IO/H72ZV)
 
 ## Poster presentations
 
-## The microbial communities associated with hoverflies
+### The microbial communities associated with hoverflies
 
 Nagahawatte, K., Ståhls, G. & Duplouy, A. European Congress of Entomology 2026, Tours, France
 

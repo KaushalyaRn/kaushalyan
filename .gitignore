@@ -4,6 +4,5 @@ dist/
 .DS_Store
 node_modules/
 
-# Personal source documents kept locally, not published as-is
+# Personal source documents kept locally, not published
 *.pdf
-!content/files/*.pdf

@@ -1,17 +1,34 @@
-.page-home .prose {
-  padding-bottom: 3rem;
+.page-article .prose h2 {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.35rem;
 }
 
-.page-cv .prose h2 {
-  border-top: 1px solid var(--rule);
-  padding-top: 1.4rem;
+.page-article .prose h2:first-child {
+  border-top: 0;
+  padding-top: 0;
 }
 
 .page-publications .prose h3 {
-  font-family: var(--display);
-  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.page-research .prose h3 {
+  margin-top: 1.85rem;
+}
+
+.page-research .prose h3 + p {
+  margin-bottom: 1.85rem;
 }
 
 .page-contact .prose a {
-  font-weight: 600;
+  font-weight: 500;
+}
+
+.kicker a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.kicker a:hover {
+  color: var(--ink);
 }
