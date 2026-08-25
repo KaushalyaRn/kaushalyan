@@ -1,8 +1,8 @@
 ---
-title: Notes
-nav: Notes
+title: Posts
+nav: Posts
 order: 3
-summary: Short updates from the lab, the field, and the desk.
+summary: News from my research 
 permalink: /notes.html
 template: notes
 ---

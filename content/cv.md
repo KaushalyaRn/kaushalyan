@@ -12,18 +12,15 @@ download_cv: true
 
 - **Name:** Kaushalya Nagahawatte
 - **ORCID:** [0009-0001-6763-7159](https://orcid.org/0009-0001-6763-7159)
-- **Date of this CV:** 19 May 2026
-
 ## Degrees
-
-- **2024.** MSc in Biological and Environmental Sciences, University of Jyväskylä, Finland. Thesis: *Relationship of parasitic Margaritifera margaritifera larvae with the host fish Atlantic salmon.* Supervisor: Prof. Jouni Taskinen. Grade 4/5. [URN](https://urn.fi/URN:NBN:fi:jyu-202406174725)
-- **2014.** BSc Special in Zoology, University of Kelaniya, Sri Lanka. Thesis on antibacterial activity of rampe, *Pandanus amaryllifolius*, against *Aeromonas hydrophila* and water quality for guppy (*Poecilia reticulata*). Supervisor: Prof. M. Hettiarachchi. Grade A (pass with distinction).
+- **2024.** MSc in Biological and Environmental Sciences, University of Jyväskylä, Finland. Thesis: *Relationship of parasitic Margaritifera margaritifera larvae with the host fish Atlantic salmon.*  [URN](https://urn.fi/URN:NBN:fi:jyu-202406174725)
+- **2014.** BSc Special in Zoology, University of Kelaniya, Sri Lanka. Thesis on antibacterial activity of rampe, *Pandanus amaryllifolius*, against *Aeromonas hydrophila* and water quality for guppy (*Poecilia reticulata*). 
 
 ## Other training
 
 - **2025.** Microbial community / environmental DNA analysis with Chipster, CSC – IT Center for Science, Finland.
 - **2024.** Extensive laboratory course in molecular methods, University of Jyväskylä (DNA and RNA isolation, PCR, qPCR, metabarcoding, CLC Workbench).
-- **2024.** Internship in molecular biology with Prof. Maaria Kankare, Stress Genomics group, University of Jyväskylä.
+- **2024.** Internship in molecular biology, Stress Genomics group, University of Jyväskylä.
 
 ## Language
 
@@ -33,9 +30,9 @@ download_cv: true
 
 ## Current position
 
-**Since December 2025.** Grant-funded researcher, Insect Symbiosis Ecology and Evolution group, Organismal and Evolutionary Biology Research Programme, University of Helsinki. Supervisors: Dr. Anne Duplouy, Dr. Gunilla Ståhls.
+**Since December 2025.** Grant-funded researcher, Organismal and Evolutionary Biology Research Programme, University of Helsinki.
 
-## Previous posts
+## Previous positions
 
 - **2025–2026.** Technical assistant, Ecological Data Sciences group, University of Helsinki (Assistant Professor Helen Phillips).
 - **2023.** Research assistant, LIFE Revives project, University of Jyväskylä.
@@ -62,8 +59,6 @@ Career break: maternity leave, 2017 (10 months).
 
 ## Other
 
-- Member, Entomological Society of Finland (2025–)
+- Member, Entomological Society of Finland 
 - Associate member, Society for Conservation Biology
 - Outreach organiser and speaker, OEB goes Vappushokkelo, University of Helsinki (2025)
-- Writer, [JYU student story](https://www.jyu.fi/en/story/jyu-opened-doors-for-my-dream-after-several-gap-years-of-my-education-journey) (2024)
-- Volunteer, Butterfly Conservation Society of Sri Lanka (2014–2016)

@@ -6,20 +6,14 @@ permalink: /
 template: home
 ---
 
-## Currently asking
+## Currently research interests
 
-Hoverflies are easy to miss until you watch one hold still in the air. I am interested in the quieter life they carry with them: bacteria and other microbes that live on and inside the insect, and how those partnerships change when the world around the fly changes.
+Hoverflies are unique pollinators, providing dual ecosystem services across their life stages. Adults are effective pollinators, while their larvae — with diverse feeding habits — offer natural pest control (zoophagous larvae) and nutrient recycling (saprophagous larvae). Like other insects, hoverflies also host diverse microbial communities. I am curious to understand who these tiny allies are and how they help their hosts cope with environmental stressors such as pesticides, discovering ways to harness host-microbiota interactions to help preserve our pollinators.
 
-In the [ISEE lab](https://www.helsinki.fi/en/researchgroups/insect-symbiosis-ecology-and-evolution) I ask three overlapping questions about Finnish hoverflies:
+The work so far is supported by the OLVI Foundation
 
-- How much does **host species** shape the microbiome?
-- What does **diet** do to those communities?
-- Can microbes help flies cope with **pesticides** and other stressors?
+## My background
 
-The work is supported by the OLVI Foundation, with Dr. Anne Duplouy and Dr. Gunilla Ståhls.
+Originally from Sri Lanka, I obtained my bachelor's degree in Zoology from the University of Kelaniya before teaching biology to university and high school students for several years. I moved to Finland for my master's studies at the University of Jyväskylä in Biological and Environmental Sciences. I currently work as a grant-funded researcher at the University of Helsinki.
 
-## A little background
-
-I trained in zoology at the University of Kelaniya in Sri Lanka, taught biology for several years, and then returned to research at the University of Jyväskylä. My master’s thesis followed the parasitic larvae of the freshwater pearl mussel *Margaritifera margaritifera* on Atlantic salmon — another story about a host, a guest, and the conditions that let both persist.
-
-Outside the lab I look for butterflies, landscapes, and the kind of light that makes a wing readable. Some of that looking lives on [Instagram](https://www.instagram.com/a_moment_fromtheworld/).
+Outside the lab, I enjoy capturing nature — glimpses of beautiful insects, landscapes, and the kind of light that makes a wing readable. It's what keeps me excited and curious. Some of that looking lives on Instagram (https://www.instagram.com/a_moment_fromtheworld/).
